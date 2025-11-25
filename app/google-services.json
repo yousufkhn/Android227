@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "866158971794",
+    "firebase_url": "https://etp227android-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "etp227android",
+    "storage_bucket": "etp227android.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866158971794:android:388f546761acb6424bcf4b",
+        "android_client_info": {
+          "package_name": "com.example.a227complete"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcACbBcqA98Y3xm7tGP3ZxxMWSgbXekSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
