@@ -35,16 +35,12 @@ class RealtimeActivity : AppCompatActivity() {
 
         setContentView(R.layout.activity_realtime)
 
-
-
         nameInput = findViewById(R.id.nameInput)
         ageInput = findViewById(R.id.ageInput)
         saveBtn = findViewById(R.id.saveBtn)
         recyclerView = findViewById(R.id.recyclerView)
 
         database = FirebaseDatabase.getInstance().getReference("Users")
-        Log.d("DB_URL", database.toString())
-
 
         userList = ArrayList()
         adapter = UserAdapter(userList)
